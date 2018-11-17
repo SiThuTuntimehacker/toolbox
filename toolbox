@@ -1,0 +1,371 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+# Sharing For Knowledge
+# 
+# Please tool feedback
+#https://www.facebook.com/TimeHacker98
+
+# 
+clear
+
+#This colour
+blue='\e[0;34'
+cyan='\e[0;36m'
+green='\e[0;34m'
+okegreen='\033[92m'
+lightgreen='\e[1;32m'
+white='\e[1;37m'
+red='\e[1;31m'
+yellow='\e[1;32m'
+
+# Isi oc :*
+ echo -e $lightgreen"
+ ____  _ _____ _
+/ ___|(_)_   _| |__  _   _
+\___ \| | | | | '_ \| | | |
+ ___) | | | | | | | | |_| |
+|____/|_| |_| |_| |_|\__,_| 
+~~~~https://www.facebook.com/TimeHacker.1998~~~~ "
+
+echo ""
+echo -e $blue"  [01] TM-scanner"
+echo -e $blue"  [02] Credmap"
+echo -e $blue"  [03] Userrecon"
+echo -e $blue"  [04] Facebook Video Downloader"
+echo -e $blue"  [05] Metasploit"
+echo -e $blue"  [06] DarkSploit"
+echo -e $blue"  [07] Pybelt"
+echo -e $blue"  [08] Shellphish(phi)"
+echo -e $blue"  [09] Kalinethunter "
+echo -e $blue"  [10] Hacker101"
+echo -e $blue"  [11] Black eye (phi)"
+echo -e $blue"  [12] pureblood"
+echo -e $blue"  [13] Routersploit"
+echo -e $blue"  [14] Brutespray"
+echo -e $blue"  [15] Zarp"
+echo -e $blue"  [16] Nikto web server scanner "
+echo -e $blue"  [17] Dos Tool"
+echo -e $blue"  [18] IPGeoLocation"
+echo -e $blue"  [19] AdvanceSql"
+echo -e $blue"  [20] Bruteforce-attack"
+echo -e $blue"  [21] LazyFiglet"
+
+
+echo -e $"  [99]  Exit "
+echo -e $blue""
+read -p "TimeHacker " act;
+
+if [ $act = 1 ] || [ $act = 01 ]
+then
+clear
+echo -e $yellow" please wait installing TM-scanner "
+sleep 1
+apt update && apt upgrade
+apt install php
+apt install git
+git clone https://github.com/TechnicalMujeeb/TM-scanner
+cp -r TM-scanner $HOME
+rm -rf TM-scanner
+./toolbox
+echo -e $green" Accept "
+fi
+
+if [ $act = 2 ] || [ $act = 02 ]
+then
+clear
+echo -e $yellow" please wait installing credmap "
+sleep 1
+apt-get update && apt-get upgrade
+apt-get install git
+apt-get install python2
+git clone https://github.com/lightos/credmap
+cp -r credmap $HOME
+rm -rf credmap
+./toolbox
+echo -e $green" Accept "
+fi
+
+if [ $act = 3 ] || [ $act = 03 ]
+then
+clear
+echo -e $yellow" please wait installing userrecon"
+sleep 1
+apt-get update && apt-get upgrade
+apt install python
+apt install git
+git clone https://github.com/thelinuxchoice/userrecon
+cp -r userrecon $HOME
+rm -rf userrecon
+./toolbox
+echo -e $green" Accept "
+fi
+
+if [ $act = 4 ] || [ $act = 04 ]
+then
+clear
+echo -e $yellow" please wait installing Facebook Video Downloader "
+sleep 1
+apt-get update && apt-get upgrade
+apt install ruby
+apt install curl
+apt install git
+git clone https://github.com/Tuhinshubhra/fbvid
+cp -r fbvid $HOME
+rm -rf fbvid
+./toolbox
+echo -e $green" Accept "
+fi
+
+if [ $act = 5 ] || [ $act = 05 ]
+then
+clear
+echo -e $yellow" please wait installing Metasploit "
+sleep 1
+apt update && apt upgrade
+apt install git
+apt install wget
+wget https://raw.githubusercontent.com/verluchie/termux-metasploit/master/install.sh
+chmod 777 install.sh
+sh install.sh
+./toolbox
+echo -e $green" Accept "
+fi
+
+if [ $act = 06 ] || [ $act = 6 ]
+then
+clear
+echo -e $yellow" please wait installing DarkSploit"
+sleep 1
+apt update 
+apt upgrade
+apt install git
+apt install python
+apt install python2
+git clone https://github.com/LOoLzeC/DarkSploit
+cp -r DarkSploit $HOME
+rm -rf DarkSploit
+./toolbox
+echo -e $yellow" Accept "
+fi
+
+if [ $act = 07 ] || [ $act = 7 ]
+then
+clear
+echo -e $green" please wait installing Pybelt "
+sleep 1
+git clone https://github.com/ekultek/pybelt.git
+pip install –r requirements.txt
+cp -r pybelt $HOME
+rm -rf pybelt
+./toolbox
+echo -e $green" Accept "
+fi
+
+
+if [ $act = 08 ] || [ $act = 8 ]
+then
+clear
+echo -e $yellow" pleade wait installing shellphish "
+sleep 1
+apt update && apt upgrade
+apt install git 
+git clone https://github.com/thelinuxchoice/shellphish
+cp -r shellphish $HOME
+rm -rf shellphish
+./toolbox
+echo -e $yellow" Accept "
+fi
+
+if [ $act = 09 ] || [ $act = 09 ]
+then
+clear
+echo -e $blue" pleae wait installing kalinethunter "
+sleep 1
+apt update && apt upgrade
+apt install git
+git clone https://github.com/Hax4us/Nethunter-In-Termux.git
+cd ~/Nethunter-In-Termux
+chmod 777 kalinethunter
+sh kalinethunter
+./toolbox
+echo -e $green" Accept "
+fi
+
+if [ $act = 10 ] || [ $act = 10 ]
+then
+clear
+echo -e $red" please wait installing hacker101 "
+sleep 1
+apt update && apt upgrade
+pkg install git
+apt install python2
+git clone https://github.com/Hacker0x01/hacker101
+cp -r hacker101 $HOME
+rm -rf hacker101
+./toolbox
+echo -e $green" Accept "
+fi
+
+if [ $act = 11 ] || [ $act = 11 ]
+then
+clear
+echo -e $yellow" Installing WFDroid "
+sleep 1
+apt update && apt upgrade
+git clone https://github.com/thelinuxchoice/blackeye
+cp -r blackeye $HOME
+rm -rf blackeye
+./toolbox
+echo -e $green" Accept "
+fi
+
+if [ $act = 12 ] || [ $act = 12 ]
+then
+clear
+echo -e $green" please wait installing pureblood "
+sleep 1
+apt update && apt upgrade
+apt install wget
+git clone https://github.com/cr4shcod3/pureblood
+cp -r pureblood $HOME
+rm -rf pureblood
+./toolbox
+echo -e $green" Accept "
+fi
+
+if [ $act = 13 ] || [ $act = 13 ]
+then
+clear
+echo -e $blue" please wait installing Routersploit "
+sleep 1
+apt install git
+apt install python2
+pip2 install requests
+git clone https://github.com/reverse-shell/routersploit.git
+cd routersploit
+pip install -r requirements.txt
+termux-fix-shebang rsf.py
+cp -r routersploit $HOME
+rm -rf routersploit
+./toolbox
+echo -e $green" Accept "
+fi
+
+if [ $act = 14 ] || [ $act = 14 ]
+then
+
+echo -e $cyan" please wait installing Brutespray "
+sleep 1
+git clone https://github.com/x90skysn3k/brutespray
+cp -r brutespray $HOME
+rm -rf brutespray
+./toolbox
+echo -e $green" Accept "
+fi
+
+if [ $act = 15 ] || [ $act = 15 ]
+then
+clear
+echo -e $yellow" please wait installing Network exploit tool "
+sleep 1
+apt update && apt install 
+apt install git
+git clone https://github.com/hatRiot/zarp
+cp -r zarp $HOME
+rm -rf zarp
+./toolbox
+echo -e $green" Accept "
+fi
+
+if [ $act = 16 ] || [ $act = 16 ]
+then
+clear
+echo -e $red" please wait installing Nikto web server scanner "
+sleep 1
+pkg update
+pkg upgrade
+apt install perl
+git clone https://github.com/sullo/nikto
+cp -r nikto $HOME
+rm -rf nikto
+./toolbox
+echo -e $green" Accept "
+fi
+
+if [ $act = 17 ] || [ $act = 17 ]
+then
+clear
+echo -e $green" please wait installing xerxes "
+sleep 1
+apt update && apt upgrade
+apt install python2
+apt install clang
+git clone https://github.com/zanyarjamal/xerxes
+cp -r xerxes $HOME
+rm -rf xerxes
+./toolbox
+echo -e $green" Accept "
+fi
+
+if [ $act = 18 ] || [ $act = 18 ]
+then
+clear
+echo -e $cyan" please wait installing IPGeoLocation "
+sleep 1
+apt-get update
+apt-get install python
+apt-get install git
+apt update && apt upgrade
+git clone https://github.com/maldevel/IPGeoLocation
+cp -r IPGeoLocation $HOME
+rm -rf IPGeoLocation
+./toolbox
+echo -e $green" Accept "
+fi
+
+if [ $act = 19 ] || [ $act = 19 ]
+then
+clear
+echo -e $yellow" please wait installing AdvanceSql "
+sleep 1
+
+git clone https://github.com/SiThuTuntimehacker/AdvanceSql
+cp -r AdvanceSql $HOME
+rm -rf AdvanceSql
+./toolbox
+echo -e $green" Accept "
+fi
+
+if [ $act = 20 ] || [ $act = 20 ]
+then
+clear
+echo -e $green" please wait installing bruteforce-attack "
+sleep 1
+git clone https://github.com/SiThuTuntimehacker/bruteforce-attack
+cp -r bruteforce-attack $HOME
+rm -rf bruteforce-attack
+./toolbox
+echo -e $green" Accept "
+fi
+
+if [ $act = 21 ] || [ $act = 21 ]
+then
+clear
+echo -e $red" please wait installing LazyFiglet "
+sleep 1
+git clone https://github.com/TechnicalMujeeb/LazyFiglet
+cp -r LazyFiglet $HOME
+rm -rf LazyFiglet
+./toolbox
+echo -e $green" Accept "
+fi
+
+if [ $act = 99 ] || [ $act = 99  ]
+then
+echo "  Sharing For Knowledge "
+sleep 1
+
+echo " Thank you for using  "
+sleep 1
+exit
+fi
