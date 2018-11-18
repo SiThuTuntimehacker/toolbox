@@ -53,7 +53,7 @@ echo -e $blue"  [21] LazyFiglet"
 
 echo -e $"  [99]  Exit "
 echo -e $blue""
-read -p " TimeHacker " act;
+read -p "『TimeHacker™』  " act;
 
 if [ $act = 1 ] || [ $act = 01 ]
 then
