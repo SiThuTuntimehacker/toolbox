@@ -11,4 +11,4 @@ usage
 chmod +x *
 ./toolbox
 
-Thank!
+Happy Hacking Learn Coding
