@@ -9,6 +9,7 @@ This tool is tool installing
 usage 
 
 chmod +x *
+
 ./toolbox
 
 Happy Hacking Learn Coding
